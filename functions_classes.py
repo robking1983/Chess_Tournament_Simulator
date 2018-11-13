@@ -52,10 +52,6 @@ class Player:
         self.rating = rating
         self.score = 0
 
-    # add points to a players' score
-    def add_points(self, num):
-        self.score += num
-
     # simulate a game between an opponent based on ratings
     def sim_game(self, opponent):
         # get probability space
